@@ -1,5 +1,5 @@
 public class Quadrado extends Figura{
-    private int lado;
+    private final int lado;
 
     public Quadrado(int lado) {
         this.lado = lado;
